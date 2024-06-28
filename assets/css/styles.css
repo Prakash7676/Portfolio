@@ -291,17 +291,23 @@ img {
   border-radius: 0.5rem;
   z-index: var(--z-back);
 }
-.skills__html {
-  width: 95%;
+.skills__dart {
+  width: 80%;
+}
+.skills__json {
+  width: 75%;
 }
 .skills__css {
-  width: 85%;
+  width: 70%;
 }
-.skills__js {
-  width: 65%;
+.skills__html {
+  width: 75%;
 }
-.skills__ux {
-  width: 85%;
+.skills__c {
+  width: 75%;
+}
+.skills__cplus {
+  width: 70%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -543,4 +549,42 @@ background-color: rgb(229, 255, 0);
   padding-inline: 30px;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.send-box {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#messageInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 5px 5px 0;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
